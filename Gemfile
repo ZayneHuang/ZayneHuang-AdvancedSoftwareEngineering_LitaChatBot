@@ -2,7 +2,11 @@ source "https://rubygems.org"
 
 gem "lita"
 gem "lita-slack"
-gem "lita-doubler"
+gem "lita-doubler", path:"./lita-doubler"
+gem "lita-calculater", path:"./lita-calculater"
+
+# gem "lita-doubler"
+# gem "lita-calculater"
 # Uncomment to use the HipChat adapter
 # gem "lita-hipchat"
 

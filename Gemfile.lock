@@ -1,3 +1,15 @@
+PATH
+  remote: lita-calculater
+  specs:
+    lita-calculater (0.1.0)
+      lita (>= 4.8)
+
+PATH
+  remote: lita-doubler
+  specs:
+    lita-doubler (0.1.0)
+      lita (>= 4.8)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -27,8 +39,6 @@ GEM
       rb-readline (>= 0.5)
       redis-namespace (>= 1.7)
       thor (>= 1.0)
-    lita-doubler (0.1.2)
-      lita (>= 4.7)
     lita-slack (1.8.0)
       eventmachine
       faraday
@@ -58,7 +68,8 @@ PLATFORMS
 
 DEPENDENCIES
   lita
-  lita-doubler
+  lita-calculater!
+  lita-doubler!
   lita-slack
 
 BUNDLED WITH

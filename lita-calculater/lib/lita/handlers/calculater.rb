@@ -16,19 +16,15 @@ module Lita
         a = Integer(a)
         b = Integer(b)
 
-        puts a
-        puts b
-        puts op
-
         case op
         when "+"
-            response.reply "#{a} + #{b} = #{add a b}"
+            response.reply "#{a} + #{b} = #{add(a, b)}"
         when "-"
-            response.reply "#{a} - #{b} = #{minus a b}"
+            response.reply "#{a} - #{b} = #{minus(a, b)}"
         when "*"
-            response.reply "#{a} * #{b} = #{multiply a b}"
+            response.reply "#{a} * #{b} = #{multiply(a, b)}"
         when "/"
-            response.reply "#{a} * #{b} = #{divide a b}"
+            response.reply "#{a} / #{b} = #{divide(a, b)}"
         end
 
       end

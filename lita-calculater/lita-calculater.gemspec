@@ -1,8 +1,8 @@
 Gem::Specification.new do |spec|
   spec.name          = "lita-calculater"
   spec.version       = "0.1.0"
-  spec.authors       = ["ZayneHuang"]
-  spec.email         = ["huangzeyuan@126.com"]
+  spec.authors       = ["Zeyuan Huang"]
+  spec.email         = ["huangzeyuan20@mails.ucas.ac.cn"]
   spec.description   = "Practise Assignment of Advanced Software Engineering in UCAS"
   spec.summary       = "Calculate the expression"
   spec.homepage      = "https://github.com/ZayneHuang/ZayneHuang-AdvancedSoftwareEngineering_LitaChatBot"
