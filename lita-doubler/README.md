@@ -3,20 +3,23 @@
 [![Build Status](https://travis-ci.org/ZayneHuang/lita-doubler.png?branch=master)](https://travis-ci.org/ZayneHuang/lita-doubler)
 [![Coverage Status](https://coveralls.io/repos/ZayneHuang/lita-doubler/badge.png)](https://coveralls.io/r/ZayneHuang/lita-doubler)
 
-TODO: Add a description of the plugin.
+Double the given number
 
 ## Installation
 
-Add lita-doubler to your Lita instance's Gemfile:
-
+Add the following line in Gemfile in your chatbot root directory.
 ``` ruby
-gem "lita-doubler"
+gem "lita-calculater", path:"./lita-calculater"
 ```
 
 ## Configuration
 
-TODO: Describe any configuration attributes the plugin exposes.
+``` ruby
+bundle
+```
 
 ## Usage
 
-TODO: Describe the plugin's features and how to use them.
+``` ruby
+bundle exec lita
+```

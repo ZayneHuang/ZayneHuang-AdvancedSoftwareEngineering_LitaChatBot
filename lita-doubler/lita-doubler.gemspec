@@ -4,7 +4,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Zeyuan Huang"]
   spec.email         = ["huangzeyuan20@mails.ucas.ac.cn"]
   spec.description   = "Practise Assignment of Advanced Software Engineering in UCAS"
-  spec.summary       = "Double the numbers."
+  spec.summary       = "Double the number"
   spec.homepage      = "https://github.com/ZayneHuang/ZayneHuang-AdvancedSoftwareEngineering_LitaChatBot"
   spec.license       = "MIT"
   spec.metadata      = { "lita_plugin_type" => "handler" }
