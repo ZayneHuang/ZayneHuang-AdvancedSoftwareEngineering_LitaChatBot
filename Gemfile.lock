@@ -10,6 +10,13 @@ PATH
     lita-doubler (0.1.0)
       lita (>= 4.8)
 
+PATH
+  remote: lita-whats-brad-eating
+  specs:
+    lita-whats-brad-eating (1.0.1)
+      lita (>= 4.7)
+      nokogiri
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -45,9 +52,12 @@ GEM
       faye-websocket (>= 0.8.0)
       lita (>= 4.7.1)
       multi_json
+    mini_portile2 (2.4.0)
     multi_json (1.15.0)
     multipart-post (2.1.1)
     nio4r (2.5.4)
+    nokogiri (1.10.10)
+      mini_portile2 (~> 2.4.0)
     puma (5.0.3)
       nio4r (~> 2.0)
     rack (2.2.3)
@@ -71,6 +81,7 @@ DEPENDENCIES
   lita-calculater!
   lita-doubler!
   lita-slack
+  lita-whats-brad-eating!
 
 BUNDLED WITH
    2.1.2
