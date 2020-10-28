@@ -9,7 +9,7 @@ Double the given number
 
 Add the following line in Gemfile in your chatbot root directory.
 ``` ruby
-gem "lita-calculater", path:"./lita-calculater"
+gem "lita-doubler", path:"./lita-doubler"
 ```
 
 ## Configuration

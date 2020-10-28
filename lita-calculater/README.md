@@ -9,7 +9,7 @@ Calculate the expression(add, minus, multiply, divide)
 
 Add the following line in Gemfile in your chatbot root directory.
 ``` ruby
-gem "lita-doubler", path:"./lita-doubler"
+gem "lita-calculater", path:"./lita-calculater"
 ```
 
 ## Configuration
