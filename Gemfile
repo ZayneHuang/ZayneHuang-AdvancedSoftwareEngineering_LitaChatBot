@@ -4,6 +4,7 @@ gem "lita"
 gem "lita-slack"
 gem "lita-doubler", path:"./lita-doubler"
 gem "lita-calculater", path:"./lita-calculater"
+gem "lita-whats-brad-eating", path:"./lita-whats-brad-eating"
 
 # gem "lita-doubler"
 # gem "lita-calculater"
